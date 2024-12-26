@@ -1,0 +1,2 @@
+bnetserver filter=lfs diff=lfs merge=lfs -text
+worldserver filter=lfs diff=lfs merge=lfs -text
