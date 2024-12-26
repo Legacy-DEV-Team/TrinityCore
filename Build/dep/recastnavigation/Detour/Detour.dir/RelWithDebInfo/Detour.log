@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/dep/recastnavigation/Detour/CMakeLists.txt
+  DetourAlloc.cpp
+  DetourAssert.cpp
+  DetourCommon.cpp
+  DetourNavMesh.cpp
+  DetourNavMeshBuilder.cpp
+  DetourNavMeshQuery.cpp
+  DetourNode.cpp
+  Detour.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\dep\recastnavigation\Detour\RelWithDebInfo\Detour.lib

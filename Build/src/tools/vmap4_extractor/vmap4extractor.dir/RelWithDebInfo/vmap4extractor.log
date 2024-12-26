@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/tools/vmap4_extractor/CMakeLists.txt
+  adtfile.cpp
+  cascfile.cpp
+  gameobject_extract.cpp
+  model.cpp
+  vmapexport.cpp
+  wdtfile.cpp
+  wmo.cpp
+  vmap4extractor.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\bin\RelWithDebInfo\vmap4extractor.exe

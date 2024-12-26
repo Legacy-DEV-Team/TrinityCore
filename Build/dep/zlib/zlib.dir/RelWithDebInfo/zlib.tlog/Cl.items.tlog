@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\adler32.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\adler32.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\compress.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\compress.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\crc32.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\crc32.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\deflate.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\deflate.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\infback.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\infback.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\inffast.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\inffast.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\inflate.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\inflate.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\inftrees.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\inftrees.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\trees.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\trees.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\uncompr.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\uncompr.obj
+C:\Users\Administrator\Desktop\TrinityCore\dep\zlib\zutil.c;C:\Users\Administrator\Desktop\TC\Build\dep\zlib\zlib.dir\RelWithDebInfo\zutil.obj

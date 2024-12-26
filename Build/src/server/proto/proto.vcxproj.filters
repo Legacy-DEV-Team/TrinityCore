@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\ServiceBase.cpp" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\account_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\account_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\attribute_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\authentication_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\challenge_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\connection_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\content_handle_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\embed_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\entity_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\ets_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\event_view_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\friends_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\friends_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\game_utilities_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\game_utilities_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\invitation_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\message_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\notification_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\notification_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_listener.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\profanity_filter_config.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\report_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\report_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\resource_service.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\role_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\rpc_config.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\rpc_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\semantic_version.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\voice_types.pb.cc">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_listener.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_service.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_types.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\channel_id.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\channel_types.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_ban.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_core.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_enum.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_invitation.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_listener.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_member.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_listener.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_service.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_types.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_name_generator.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_notification.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_range_set.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_request.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_role.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_service.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_stream.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_types.pb.cc">
+      <Filter>Client\api\client\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_listener.pb.cc">
+      <Filter>Client\api\client\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_service.pb.cc">
+      <Filter>Client\api\client\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_types.pb.cc">
+      <Filter>Client\api\client\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\report_service.pb.cc">
+      <Filter>Client\api\client\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\report_types.pb.cc">
+      <Filter>Client\api\client\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\whisper_listener.pb.cc">
+      <Filter>Client\api\client\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\whisper_service.pb.cc">
+      <Filter>Client\api\client\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_core.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_enum.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_member_id.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_tag.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_type.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\embed_types.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\event_view_types.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\invitation_types.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\message_types.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\voice_types.pb.cc">
+      <Filter>Client\api\common\v1</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\attribute_types.pb.cc">
+      <Filter>Client\api\common\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\game_account_handle.pb.cc">
+      <Filter>Client\api\common\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\whisper_types.pb.cc">
+      <Filter>Client\api\common\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\field_options.pb.cc">
+      <Filter>Client\global_extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\message_options.pb.cc">
+      <Filter>Client\global_extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\method_options.pb.cc">
+      <Filter>Client\global_extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\range.pb.cc">
+      <Filter>Client\global_extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\register_method_types.pb.cc">
+      <Filter>Client\global_extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\routing.pb.cc">
+      <Filter>Client\global_extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\service_options.pb.cc">
+      <Filter>Client\global_extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login\Login.pb.cc">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList\RealmList.pb.cc">
+      <Filter>RealmList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\BattlenetRpcErrorCodes.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\ServiceBase.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\account_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\account_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\attribute_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\authentication_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\challenge_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\connection_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\content_handle_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\embed_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\entity_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\ets_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\event_view_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\friends_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\friends_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\game_utilities_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\game_utilities_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\invitation_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\message_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\notification_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\notification_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_listener.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\profanity_filter_config.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\report_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\report_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\resource_service.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\role_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\rpc_config.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\rpc_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\semantic_version.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\voice_types.pb.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_listener.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_service.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_types.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\channel_id.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\channel_types.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_ban.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_core.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_enum.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_invitation.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_listener.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_member.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_listener.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_service.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_types.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_name_generator.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_notification.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_range_set.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_request.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_role.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_service.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_stream.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_types.pb.h">
+      <Filter>Client\api\client\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_listener.pb.h">
+      <Filter>Client\api\client\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_service.pb.h">
+      <Filter>Client\api\client\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_types.pb.h">
+      <Filter>Client\api\client\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\report_service.pb.h">
+      <Filter>Client\api\client\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\report_types.pb.h">
+      <Filter>Client\api\client\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\whisper_listener.pb.h">
+      <Filter>Client\api\client\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\whisper_service.pb.h">
+      <Filter>Client\api\client\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_core.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_enum.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_member_id.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_tag.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_type.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\embed_types.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\event_view_types.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\invitation_types.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\message_types.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\voice_types.pb.h">
+      <Filter>Client\api\common\v1</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\attribute_types.pb.h">
+      <Filter>Client\api\common\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\game_account_handle.pb.h">
+      <Filter>Client\api\common\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\whisper_types.pb.h">
+      <Filter>Client\api\common\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\field_options.pb.h">
+      <Filter>Client\global_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\message_options.pb.h">
+      <Filter>Client\global_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\method_options.pb.h">
+      <Filter>Client\global_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\range.pb.h">
+      <Filter>Client\global_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\register_method_types.pb.h">
+      <Filter>Client\global_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\routing.pb.h">
+      <Filter>Client\global_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\service_options.pb.h">
+      <Filter>Client\global_extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login\Login.pb.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList\RealmList.pb.h">
+      <Filter>RealmList</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Client">
+      <UniqueIdentifier>{11BED8B0-2976-3C2A-9106-5628C0EF8FDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\api">
+      <UniqueIdentifier>{8D811065-8B2A-33A2-AD92-C93735AFF069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\api\client">
+      <UniqueIdentifier>{7D5D60B4-C485-3AC6-ADD6-5AB4EFB5C5A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\api\client\v1">
+      <UniqueIdentifier>{BE5FEB14-3286-3962-8D3E-6BDCE69AF3BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\api\client\v2">
+      <UniqueIdentifier>{EDE8E0F4-275B-351C-8244-BA69FF68610D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\api\common">
+      <UniqueIdentifier>{3BDC0872-7370-3701-A9F5-C0FC0A0001F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\api\common\v1">
+      <UniqueIdentifier>{52AFDACA-A116-3BC8-9977-F0E8E4EC57EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\api\common\v2">
+      <UniqueIdentifier>{FF3A5F5E-2F17-3FE2-ABA9-1484BD96EE10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client\global_extensions">
+      <UniqueIdentifier>{059B7651-EEFF-32F1-A113-FCB08ECBB0A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{D91BC4A9-2924-3339-9D3E-D2300314C186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{9E72C5BD-7BAA-3D3F-A276-D87B58472C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RealmList">
+      <UniqueIdentifier>{054D89A3-17E3-360F-83FB-15AB837C0677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ACD4CA30-9226-3328-A89B-93A665C7AF93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

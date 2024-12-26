@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\shared\CMakeFiles\shared.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\DataStores\DB2DatabaseLoader.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\DataStores\DB2Store.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\JSON\ProtobufJSON.cpp">
+      <Filter>JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\BaseHttpSocket.cpp">
+      <Filter>Networking\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\HttpService.cpp">
+      <Filter>Networking\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Packets\ByteBuffer.cpp">
+      <Filter>Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Realm\ClientBuildInfo.cpp">
+      <Filter>Realm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Realm\Realm.cpp">
+      <Filter>Realm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Realm\RealmList.cpp">
+      <Filter>Realm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Secrets\SecretMgr.cpp">
+      <Filter>Secrets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\DetourMemoryFunctions.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\DataStores\DB2DatabaseLoader.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\DataStores\DB2Store.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\DataStores\DBStorageIterator.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Dynamic\FactoryHolder.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Dynamic\LinkedList.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Dynamic\ObjectRegistry.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Dynamic\TypeList.h">
+      <Filter>Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Dynamic\LinkedReference\RefManager.h">
+      <Filter>Dynamic\LinkedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Dynamic\LinkedReference\Reference.h">
+      <Filter>Dynamic\LinkedReference</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\JSON\ProtobufJSON.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\AsyncAcceptor.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\NetworkThread.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Socket.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\SocketMgr.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\SslSocket.h">
+      <Filter>Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\BaseHttpSocket.h">
+      <Filter>Networking\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\HttpCommon.h">
+      <Filter>Networking\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\HttpService.h">
+      <Filter>Networking\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\HttpSessionState.h">
+      <Filter>Networking\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\HttpSocket.h">
+      <Filter>Networking\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\HttpSslSocket.h">
+      <Filter>Networking\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Packets\ByteBuffer.h">
+      <Filter>Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Realm\ClientBuildInfo.h">
+      <Filter>Realm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Realm\Realm.h">
+      <Filter>Realm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Realm\RealmList.h">
+      <Filter>Realm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Secrets\SecretMgr.h">
+      <Filter>Secrets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\shared\CMakeFiles\shared.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\shared\CMakeFiles\shared.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\shared\CMakeFiles\shared.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\shared\CMakeFiles\shared.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DataStores">
+      <UniqueIdentifier>{27FC9025-EF33-38BF-B1D3-2874BDCFADD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic">
+      <UniqueIdentifier>{110B0211-26A5-3157-88F2-09F0F37686C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamic\LinkedReference">
+      <UniqueIdentifier>{14DDE768-9F23-3EC9-A847-E453ED1B94E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{96E80064-8438-30AC-9B57-D02CAFBA8F71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking">
+      <UniqueIdentifier>{9E2E723E-5F89-3BA9-BA91-1521F004382F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Networking\Http">
+      <UniqueIdentifier>{C8977ACB-5F44-3A52-A032-59419B596BCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packets">
+      <UniqueIdentifier>{F85C4EAE-0D45-3D6E-AF69-B7BCC4FC472E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{9E72C5BD-7BAA-3D3F-A276-D87B58472C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Realm">
+      <UniqueIdentifier>{17C5779D-7DCF-3437-AEC3-54E68FDB2624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Secrets">
+      <UniqueIdentifier>{B5E517BF-34FB-3CB8-8C03-7179B9B917D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ACD4CA30-9226-3328-A89B-93A665C7AF93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

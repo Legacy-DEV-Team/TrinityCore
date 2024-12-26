@@ -1,0 +1,15 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/server/bnetserver/CMakeLists.txt
+  cmake_pch.cxx
+  Main.cpp
+  LoginHttpSession.cpp
+  LoginRESTService.cpp
+  Session.cpp
+  SessionManager.cpp
+  SslContext.cpp
+  AccountService.cpp
+  AuthenticationService.cpp
+  ConnectionService.cpp
+  GameUtilitiesService.cpp
+  ServiceDispatcher.cpp
+     Creating library C:/Users/Administrator/Desktop/TC/Build/src/server/bnetserver/RelWithDebInfo/bnetserver.lib and object C:/Users/Administrator/Desktop/TC/Build/src/server/bnetserver/RelWithDebInfo/bnetserver.exp
+  bnetserver.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\bin\RelWithDebInfo\bnetserver.exe

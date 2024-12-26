@@ -1,0 +1,10 @@
+^C:\USERS\ADMINISTRATOR\DESKTOP\TRINITYCORE\SRC\TOOLS\VMAP4_EXTRACTOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/TrinityCore -BC:/Users/Administrator/Desktop/TC/Build --check-stamp-file C:/Users/Administrator/Desktop/TC/Build/src/tools/vmap4_extractor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

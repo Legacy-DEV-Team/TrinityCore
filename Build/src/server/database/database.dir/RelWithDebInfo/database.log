@@ -1,0 +1,24 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/server/database/CMakeLists.txt
+  cmake_pch.cxx
+  AdhocStatement.cpp
+  DatabaseEnv.cpp
+  DatabaseLoader.cpp
+  DatabaseWorkerPool.cpp
+  Field.cpp
+  FieldValueConverter.cpp
+  MySQLConnection.cpp
+  MySQLPreparedStatement.cpp
+  MySQLThreading.cpp
+  PreparedStatement.cpp
+  QueryCallback.cpp
+  QueryHolder.cpp
+  QueryResult.cpp
+  Transaction.cpp
+  CharacterDatabase.cpp
+  HotfixDatabase.cpp
+  LoginDatabase.cpp
+  WorldDatabase.cpp
+  AppenderDB.cpp
+  DBUpdater.cpp
+  UpdateFetcher.cpp
+  database.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\src\server\database\RelWithDebInfo\database.lib

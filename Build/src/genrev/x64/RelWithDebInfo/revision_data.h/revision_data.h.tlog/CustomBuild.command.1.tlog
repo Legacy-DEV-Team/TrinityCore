@@ -1,0 +1,24 @@
+^C:\USERS\ADMINISTRATOR\DESKTOP\TC\BUILD\CMAKEFILES\22CC187C32CF4E4D1D2AA6154CC1CECC\REVISION_DATA.H.RULE
+setlocal
+cd C:\Users\Administrator\Desktop\TrinityCore
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DBUILDDIR="C:/Users/Administrator/Desktop/TC/Build" -P C:/Users/Administrator/Desktop/TrinityCore/cmake/genrev.cmake C:/Users/Administrator/Desktop/TC/Build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ADMINISTRATOR\DESKTOP\TRINITYCORE\SRC\GENREV\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/TrinityCore -BC:/Users/Administrator/Desktop/TC/Build --check-stamp-file C:/Users/Administrator/Desktop/TC/Build/src/genrev/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

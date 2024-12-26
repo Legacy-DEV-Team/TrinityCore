@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/server/shared/CMakeLists.txt
+  cmake_pch.cxx
+  DB2DatabaseLoader.cpp
+  DB2Store.cpp
+  ProtobufJSON.cpp
+  BaseHttpSocket.cpp
+  HttpService.cpp
+  ByteBuffer.cpp
+  ClientBuildInfo.cpp
+  Realm.cpp
+  RealmList.cpp
+  SecretMgr.cpp
+  shared.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\src\server\shared\RelWithDebInfo\shared.lib

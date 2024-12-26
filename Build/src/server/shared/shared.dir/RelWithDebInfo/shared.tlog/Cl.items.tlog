@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\TC\Build\src\server\shared\CMakeFiles\shared.dir\cmake_pch.cxx;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\cmake_pch.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\DataStores\DB2DatabaseLoader.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\DB2DatabaseLoader.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\DataStores\DB2Store.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\DB2Store.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\JSON\ProtobufJSON.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\ProtobufJSON.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\BaseHttpSocket.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\BaseHttpSocket.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Networking\Http\HttpService.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\HttpService.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Packets\ByteBuffer.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\ByteBuffer.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Realm\ClientBuildInfo.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\ClientBuildInfo.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Realm\Realm.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\Realm.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Realm\RealmList.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\RealmList.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\shared\Secrets\SecretMgr.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\shared\shared.dir\RelWithDebInfo\SecretMgr.obj

@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/dep/argon2/CMakeLists.txt
+  argon2.c
+  blake2b.c
+  core.c
+  encoding.c
+  opt.c
+  thread.c
+  argon2.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\dep\argon2\RelWithDebInfo\argon2.lib

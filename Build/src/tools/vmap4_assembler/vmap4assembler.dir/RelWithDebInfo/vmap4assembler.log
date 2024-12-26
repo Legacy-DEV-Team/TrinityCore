@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/tools/vmap4_assembler/CMakeLists.txt
+  TileAssembler.cpp
+  VMapAssembler.cpp
+  vmap4assembler.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\bin\RelWithDebInfo\vmap4assembler.exe

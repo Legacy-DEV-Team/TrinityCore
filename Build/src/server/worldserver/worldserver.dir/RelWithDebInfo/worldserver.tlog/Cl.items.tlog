@@ -1,0 +1,5 @@
+C:\Users\Administrator\Desktop\TC\Build\src\server\worldserver\CMakeFiles\worldserver.dir\cmake_pch.cxx;C:\Users\Administrator\Desktop\TC\Build\src\server\worldserver\worldserver.dir\RelWithDebInfo\cmake_pch.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\worldserver\Main.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\worldserver\worldserver.dir\RelWithDebInfo\Main.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\worldserver\CommandLine\CliRunnable.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\worldserver\worldserver.dir\RelWithDebInfo\CliRunnable.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\worldserver\RemoteAccess\RASession.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\worldserver\worldserver.dir\RelWithDebInfo\RASession.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\worldserver\TCSoap\TCSoap.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\worldserver\worldserver.dir\RelWithDebInfo\TCSoap.obj

@@ -1,0 +1,2505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\game\CMakeFiles\game.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CreatureAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CreatureAIRegistry.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CreatureAISelector.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\AreaTriggerAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\CombatAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\GameObjectAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\GuardAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\PassiveAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\PetAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\ReactorAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\ScheduledChangeAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\TotemAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\UnitAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\UnitAICommon.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\enuminfo_UnitAICommon.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\PlayerAI\PlayerAI.cpp">
+      <Filter>AI\PlayerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedGossip.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\SmartScripts\SmartAI.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\SmartScripts\SmartScript.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Accounts\AccountMgr.cpp">
+      <Filter>Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Accounts\BattlenetAccountMgr.cpp">
+      <Filter>Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Accounts\RBAC.cpp">
+      <Filter>Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Achievements\AchievementMgr.cpp">
+      <Filter>Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Achievements\CriteriaHandler.cpp">
+      <Filter>Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AuctionHouse\AuctionHouseMgr.cpp">
+      <Filter>AuctionHouse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBot.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBotBuyer.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBotSeller.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AuctionHouseBot\enuminfo_AuctionHouseBot.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\BattlePets\BattlePetMgr.cpp">
+      <Filter>BattlePets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlefield\Battlefield.cpp">
+      <Filter>Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlefield\BattlefieldMgr.cpp">
+      <Filter>Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\Arena.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\ArenaScore.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\ArenaTeam.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\ArenaTeamMgr.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\Battleground.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\BattlegroundMgr.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\BattlegroundQueue.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\BattlegroundScore.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\BattlegroundScript.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\enuminfo_ArenaTeam.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\BlackMarket\BlackMarketMgr.cpp">
+      <Filter>BlackMarket</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Cache\CharacterCache.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Calendar\CalendarMgr.cpp">
+      <Filter>Calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Chat.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\HyperlinkTags.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Hyperlinks.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\LanguageMgr.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Channels\Channel.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Channels\ChannelMgr.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Channels\enuminfo_Channel.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommand.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandArgs.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandHelpers.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandTags.cpp">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Combat\CombatManager.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Combat\ThreatManager.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Conditions\ConditionMgr.cpp">
+      <Filter>Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Conditions\DisableMgr.cpp">
+      <Filter>Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\DB2HotfixGenerator.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\DB2Stores.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\GameTables.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\M2Stores.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFG.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGGroupData.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGMgr.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGPlayerData.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGQueue.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGScripts.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\AreaTrigger\AreaTrigger.cpp">
+      <Filter>Entities\AreaTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\AreaTrigger\AreaTriggerTemplate.cpp">
+      <Filter>Entities\AreaTrigger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Conversation\Conversation.cpp">
+      <Filter>Entities\Conversation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Corpse\Corpse.cpp">
+      <Filter>Entities\Corpse</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\Creature.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\CreatureGroups.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\GossipDef.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\TemporarySummon.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\Trainer.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\enuminfo_CreatureData.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\DynamicObject\DynamicObject.cpp">
+      <Filter>Entities\DynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\GameObject\GameObject.cpp">
+      <Filter>Entities\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\Item.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\ItemBonusMgr.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\ItemTemplate.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\enuminfo_ItemDefines.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\AzeriteItem\AzeriteEmpoweredItem.cpp">
+      <Filter>Entities\Item\AzeriteItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\AzeriteItem\AzeriteItem.cpp">
+      <Filter>Entities\Item\AzeriteItem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\Container\Bag.cpp">
+      <Filter>Entities\Item\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Object.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\ObjectGuid.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\ObjectPosSelector.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Position.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\SmoothPhasing.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\UpdateData.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\UpdateField.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\UpdateFields.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\WowCSEntityDefinitions.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Pet\Pet.cpp">
+      <Filter>Entities\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\CinematicMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\CollectionMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\KillRewarder.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\Player.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\PlayerTaxi.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\RestMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\SceneMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\SocialMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\TradeData.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\SceneObject\SceneObject.cpp">
+      <Filter>Entities\SceneObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Taxi\TaxiPathGraph.cpp">
+      <Filter>Entities\Taxi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Totem\Totem.cpp">
+      <Filter>Entities\Totem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Transport\Transport.cpp">
+      <Filter>Entities\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Unit\CharmInfo.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Unit\StatSystem.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Unit\Unit.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Unit\Vignette.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Unit\enuminfo_UnitDefines.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Vehicle\Vehicle.cpp">
+      <Filter>Entities\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Events\GameEventMgr.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Events\GameEventSender.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Garrison\Garrison.cpp">
+      <Filter>Garrison</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Garrison\GarrisonMap.cpp">
+      <Filter>Garrison</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Garrison\GarrisonMgr.cpp">
+      <Filter>Garrison</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\AreaTriggerDataStore.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\CharacterTemplateDataStore.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\ConversationDataStore.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\ObjectAccessor.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\ObjectMgr.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\GridStates.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\NGrid.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\ObjectGridLoader.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\Notifiers\GridNotifiers.cpp">
+      <Filter>Grids\Notifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\Group.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\GroupInstanceReference.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\GroupMgr.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\GroupReference.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Guilds\Guild.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Guilds\GuildMgr.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\AdventureJournalHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\AdventureMapHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\ArtifactHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\AuctionHouseHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\AuthHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\AzeriteHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\BankHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\BattleGroundHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\BattlePetHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\BattlenetHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\BlackMarketHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\CalendarHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\ChannelHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\CharacterHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\ChatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\CollectionsHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\CombatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\DuelHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\GarrisonHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\GroupHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\GuildHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\HotfixHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\InspectHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\ItemHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\LFGHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\LootHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\MailHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\MiscHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\MovementHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\NPCHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\PetHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\PetitionsHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\QueryHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\QuestHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\ScenarioHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\SceneHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\SkillHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\SocialHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\SpellHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\TaxiHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\TicketHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\TokenHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\ToyHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\TradeHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\TraitHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\TransmogrificationHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\VehicleHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\VoidStorageHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Instances\InstanceLockMgr.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Instances\InstanceScript.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Instances\InstanceScriptData.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Instances\enuminfo_InstanceScript.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Loot\Loot.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Loot\LootItemStorage.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Loot\LootMgr.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Mails\Mail.cpp">
+      <Filter>Mails</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\AreaBoundary.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\GridMap.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\Map.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\MapManager.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\MapReference.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\MapScripts.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\MapUpdater.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\TerrainMgr.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\TransportMgr.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\ZoneScript.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\enuminfo_SpawnData.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Miscellaneous\CommonPredicates.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Miscellaneous\enuminfo_RaceMask.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Miscellaneous\enuminfo_SharedDefines.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\AbstractFollower.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MotionMaster.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementDefines.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerator.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\PathGenerator.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\enuminfo_MovementDefines.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\ChaseMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\FlightPathMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\FollowMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\FormationMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\GenericMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\SplineChainMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\MoveSpline.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\MoveSplineInit.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\MovementUtil.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\Spline.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\enuminfo_MoveSplineFlag.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Waypoints\WaypointManager.cpp">
+      <Filter>Movement\Waypoints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvP.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Petitions\PetitionMgr.cpp">
+      <Filter>Petitions</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Phasing\PersonalPhaseTracker.cpp">
+      <Filter>Phasing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Phasing\PhaseShift.cpp">
+      <Filter>Phasing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Phasing\PhasingHandler.cpp">
+      <Filter>Phasing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Pools\PoolMgr.cpp">
+      <Filter>Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Pools\QuestPools.cpp">
+      <Filter>Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Quests\QuestDef.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Quests\QuestObjectiveCriteriaMgr.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Quests\enuminfo_QuestDef.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Reputation\ReputationMgr.cpp">
+      <Filter>Reputation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scenarios\InstanceScenario.cpp">
+      <Filter>Scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scenarios\Scenario.cpp">
+      <Filter>Scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scenarios\ScenarioMgr.cpp">
+      <Filter>Scenarios</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scripting\ScriptMgr.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scripting\ScriptReloadMgr.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scripting\ScriptSystem.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scripting\v2\ScriptActions.cpp">
+      <Filter>Scripting\v2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packet.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\WorldSession.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\WorldSocket.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\WorldSocketMgr.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AchievementPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AddonPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AdventureJournalPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AdventureMapPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AreaTriggerPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ArtifactPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AuctionHousePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AuthenticationPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AzeritePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BankPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BattlePetPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BattlegroundPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BattlenetPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BlackMarketPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CalendarPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ChannelPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CharacterPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ChatPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ClientConfigPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CollectionPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CombatLogPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CombatLogPacketsCommon.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CombatPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CraftingPacketsCommon.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\DuelPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\EquipmentSetPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\GameObjectPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\GarrisonPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\GuildPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\HotfixPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\InspectPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\InstancePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ItemPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ItemPacketsCommon.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\LFGPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\LFGPacketsCommon.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\LootPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\MailPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\MiscPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\MovementPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\MythicPlusPacketsCommon.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\NPCPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PacketUtilities.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PartyPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PerksProgramPacketsCommon.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PetPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PetitionPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\QueryPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\QuestPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ReferAFriendPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ReputationPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ScenarioPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ScenePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\SocialPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\SpellPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\SystemPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TalentPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TaxiPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TicketPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TokenPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TotemPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ToyPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TradePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TraitPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TraitPacketsCommon.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TransmogrificationPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\VehiclePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\VignettePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\VoidStoragePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\WardenPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\WhoPackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\WorldStatePackets.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Protocol\Opcodes.cpp">
+      <Filter>Server\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Protocol\PacketLog.cpp">
+      <Filter>Server\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\ClubMembershipService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\ClubService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\ClubUtils.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\WorldserverGameUtilitiesService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\WorldserverServiceDispatcher.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Skills\SkillDiscovery.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Skills\SkillExtraItems.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\Spell.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellEffects.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellHistory.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellInfo.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellMgr.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellScript.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\TraitMgr.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\Auras\SpellAuraEffects.cpp">
+      <Filter>Spells\Auras</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\Auras\SpellAuras.cpp">
+      <Filter>Spells\Auras</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Storages\WhoListStorage.cpp">
+      <Filter>Storages</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Support\SupportMgr.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Texts\ChatTextBuilder.cpp">
+      <Filter>Texts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Texts\CreatureTextMgr.cpp">
+      <Filter>Texts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Time\GameTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Time\UpdateTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Time\WowTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Tools\CharacterDatabaseCleaner.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Tools\PlayerDump.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\Warden.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\WardenCheckMgr.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\WardenMac.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\WardenWin.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\enuminfo_WardenCheckMgr.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Weather\Weather.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Weather\WeatherMgr.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\World\WorldStates\WorldStateMgr.cpp">
+      <Filter>World\WorldStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\AIException.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CreatureAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CreatureAIFactory.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CreatureAIImpl.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CreatureAIRegistry.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CreatureAISelector.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\GameObjectAIFactory.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\SelectableAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\AreaTriggerAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\CombatAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\GameObjectAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\GuardAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\PassiveAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\PetAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\ReactorAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\ScheduledChangeAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\TotemAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\UnitAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\CoreAI\UnitAICommon.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\PlayerAI\PlayerAI.h">
+      <Filter>AI\PlayerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedCreature.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedEscortAI.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\ScriptedAI\ScriptedGossip.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\SmartScripts\SmartAI.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\SmartScripts\SmartScript.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AI\SmartScripts\SmartScriptMgr.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Accounts\AccountMgr.h">
+      <Filter>Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Accounts\BattlenetAccountMgr.h">
+      <Filter>Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Accounts\RBAC.h">
+      <Filter>Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Achievements\AchievementMgr.h">
+      <Filter>Achievements</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Achievements\CriteriaHandler.h">
+      <Filter>Achievements</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AuctionHouse\AuctionHouseMgr.h">
+      <Filter>AuctionHouse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBot.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBotBuyer.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\AuctionHouseBot\AuctionHouseBotSeller.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\BattlePets\BattlePetMgr.h">
+      <Filter>BattlePets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlefield\Battlefield.h">
+      <Filter>Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlefield\BattlefieldMgr.h">
+      <Filter>Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\Arena.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\ArenaScore.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\ArenaTeam.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\ArenaTeamMgr.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\Battleground.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\BattlegroundMgr.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\BattlegroundQueue.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\BattlegroundScore.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Battlegrounds\BattlegroundScript.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\BlackMarket\BlackMarketMgr.h">
+      <Filter>BlackMarket</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Cache\CharacterCache.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Calendar\CalendarMgr.h">
+      <Filter>Calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Chat.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Hyperlinks.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\LanguageMgr.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Channels\Channel.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Channels\ChannelAppenders.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\Channels\ChannelMgr.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommand.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandArgs.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandHelpers.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Chat\ChatCommands\ChatCommandTags.h">
+      <Filter>Chat\ChatCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Combat\CombatManager.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Combat\ThreatManager.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Conditions\ConditionMgr.h">
+      <Filter>Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Conditions\DisableMgr.h">
+      <Filter>Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\DB2HotfixGenerator.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\DB2LoadInfo.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\DB2Metadata.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\DB2Stores.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\DB2Structure.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\DBCEnums.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\GameTables.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\M2Stores.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DataStores\M2Structure.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFG.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGGroupData.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGMgr.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGPlayerData.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGQueue.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\DungeonFinding\LFGScripts.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\AreaTrigger\AreaTrigger.h">
+      <Filter>Entities\AreaTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\AreaTrigger\AreaTriggerTemplate.h">
+      <Filter>Entities\AreaTrigger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Conversation\Conversation.h">
+      <Filter>Entities\Conversation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Corpse\Corpse.h">
+      <Filter>Entities\Corpse</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\Creature.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\CreatureData.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\CreatureGroups.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\GossipDef.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\TemporarySummon.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Creature\Trainer.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\DynamicObject\DynamicObject.h">
+      <Filter>Entities\DynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\GameObject\GameObject.h">
+      <Filter>Entities\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\GameObject\GameObjectData.h">
+      <Filter>Entities\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\GameObject\QuaternionData.h">
+      <Filter>Entities\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\Item.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\ItemBonusMgr.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\ItemDefines.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\ItemEnchantmentMgr.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\ItemTemplate.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\AzeriteItem\AzeriteEmpoweredItem.h">
+      <Filter>Entities\Item\AzeriteItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\AzeriteItem\AzeriteItem.h">
+      <Filter>Entities\Item\AzeriteItem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Item\Container\Bag.h">
+      <Filter>Entities\Item\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\G3DPosition.hpp">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\GridObject.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\MovementInfo.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Object.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\ObjectDefines.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\ObjectGuid.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\ObjectPosSelector.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Position.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\SmoothPhasing.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\UpdateData.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\UpdateField.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\UpdateFields.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\UpdateMask.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\ViewerDependentValues.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Object\Updates\WowCSEntityDefinitions.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Pet\Pet.h">
+      <Filter>Entities\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Pet\PetDefines.h">
+      <Filter>Entities\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\CUFProfile.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\CinematicMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\CollectionMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\EquipmentSet.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\KillRewarder.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\Player.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\PlayerTaxi.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\RestMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\SceneDefines.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\SceneMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\SocialMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Player\TradeData.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\SceneObject\SceneObject.h">
+      <Filter>Entities\SceneObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Taxi\TaxiPathGraph.h">
+      <Filter>Entities\Taxi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Totem\Totem.h">
+      <Filter>Entities\Totem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Transport\Transport.h">
+      <Filter>Entities\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Unit\CharmInfo.h">
+      <Filter>Entities\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Unit\Unit.h">
+      <Filter>Entities\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Unit\UnitDefines.h">
+      <Filter>Entities\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Unit\Vignette.h">
+      <Filter>Entities\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Vehicle\Vehicle.h">
+      <Filter>Entities\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Entities\Vehicle\VehicleDefines.h">
+      <Filter>Entities\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Events\GameEventMgr.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Events\GameEventSender.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Garrison\Garrison.h">
+      <Filter>Garrison</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Garrison\GarrisonMap.h">
+      <Filter>Garrison</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Garrison\GarrisonMgr.h">
+      <Filter>Garrison</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\AreaTriggerDataStore.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\CharacterTemplateDataStore.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\ConversationDataStore.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\ObjectAccessor.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Globals\ObjectMgr.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\Grid.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\GridDefines.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\GridLoader.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\GridRefManager.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\GridReference.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\GridStates.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\NGrid.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\ObjectGridLoader.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\Cells\Cell.h">
+      <Filter>Grids\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\Cells\CellImpl.h">
+      <Filter>Grids\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\Dynamic\TypeContainer.h">
+      <Filter>Grids\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\Dynamic\TypeContainerFunctions.h">
+      <Filter>Grids\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\Dynamic\TypeContainerVisitor.h">
+      <Filter>Grids\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\Notifiers\GridNotifiers.h">
+      <Filter>Grids\Notifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Grids\Notifiers\GridNotifiersImpl.h">
+      <Filter>Grids\Notifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\Group.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\GroupInstanceRefManager.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\GroupInstanceReference.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\GroupMgr.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\GroupRefManager.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Groups\GroupReference.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Guilds\Guild.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Guilds\GuildMgr.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Handlers\NPCHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Instances\InstanceLockMgr.h">
+      <Filter>Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Instances\InstanceScript.h">
+      <Filter>Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Instances\InstanceScriptData.h">
+      <Filter>Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Loot\Loot.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Loot\LootItemStorage.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Loot\LootItemType.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Loot\LootMgr.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Mails\Mail.h">
+      <Filter>Mails</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\AreaBoundary.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\GridMap.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\Map.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\MapManager.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\MapObject.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\MapRefManager.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\MapReference.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\MapUpdater.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\SpawnData.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\TerrainMgr.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\TransportMgr.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Maps\ZoneScript.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Miscellaneous\CommonPredicates.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Miscellaneous\Formulas.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Miscellaneous\Language.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Miscellaneous\RaceMask.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Miscellaneous\SharedDefines.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\AbstractFollower.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MotionMaster.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementDefines.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerator.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\PathGenerator.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\ChaseMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\FlightPathMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\FollowMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\FormationMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\GenericMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\PathMovementBase.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\PointMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\SplineChainMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\MoveSpline.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\MoveSplineFlag.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\MoveSplineInit.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\MoveSplineInitArgs.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\MovementTypedefs.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\Spline.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\SplineChain.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Spline\SplineImpl.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Waypoints\WaypointDefines.h">
+      <Filter>Movement\Waypoints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Movement\Waypoints\WaypointManager.h">
+      <Filter>Movement\Waypoints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvP.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\OutdoorPvP\OutdoorPvPMgr.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Petitions\PetitionMgr.h">
+      <Filter>Petitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Phasing\PersonalPhaseTracker.h">
+      <Filter>Phasing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Phasing\PhaseShift.h">
+      <Filter>Phasing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Phasing\PhasingHandler.h">
+      <Filter>Phasing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Pools\PoolMgr.h">
+      <Filter>Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Pools\QuestPools.h">
+      <Filter>Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Quests\QuestDef.h">
+      <Filter>Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Quests\QuestObjectiveCriteriaMgr.h">
+      <Filter>Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Reputation\ReputationMgr.h">
+      <Filter>Reputation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scenarios\InstanceScenario.h">
+      <Filter>Scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scenarios\Scenario.h">
+      <Filter>Scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scenarios\ScenarioMgr.h">
+      <Filter>Scenarios</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scripting\ScriptMgr.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scripting\ScriptReloadMgr.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scripting\ScriptSystem.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scripting\v2\ScriptActionResult.h">
+      <Filter>Scripting\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Scripting\v2\ScriptActions.h">
+      <Filter>Scripting\v2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packet.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\WorldPacket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\WorldSession.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\WorldSocket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\WorldSocketMgr.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AchievementPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AddonPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AdventureJournalPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AdventureMapPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AllPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AreaTriggerPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ArtifactPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AuctionHousePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AuthenticationPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\AzeritePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BankPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BattlePetPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BattlegroundPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BattlenetPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\BlackMarketPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CalendarPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ChannelPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CharacterPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ChatPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ClientConfigPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CollectionPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CombatLogPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CombatLogPacketsCommon.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CombatPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\CraftingPacketsCommon.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\DuelPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\EquipmentSetPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\GameObjectPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\GarrisonPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\GuildPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\HotfixPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\InspectPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\InstancePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ItemPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ItemPacketsCommon.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\LFGPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\LFGPacketsCommon.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\LootPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\MailPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\MiscPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\MovementPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\MythicPlusPacketsCommon.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\NPCPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PacketUtilities.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PartyPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PerksProgramPacketsCommon.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PetPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\PetitionPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\QueryPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\QuestPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ReferAFriendPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ReputationPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ScenarioPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ScenePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\SocialPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\SpellPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\SystemPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TalentPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TaxiPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TicketPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TokenPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TotemPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\ToyPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TradePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TraitPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TraitPacketsCommon.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\TransmogrificationPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\VehiclePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\VignettePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\VoidStoragePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\WardenPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\WhoPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Packets\WorldStatePackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Protocol\Opcodes.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Server\Protocol\PacketLog.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\ClubMembershipService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\ClubService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\ClubUtils.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\WorldserverGameUtilitiesService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\WorldserverService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Services\WorldserverServiceDispatcher.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Skills\SkillDiscovery.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Skills\SkillExtraItems.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\Spell.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellCastRequest.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellDefines.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellHistory.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellInfo.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellMgr.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\SpellScript.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\TraitMgr.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\Auras\SpellAuraDefines.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\Auras\SpellAuraEffects.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Spells\Auras\SpellAuras.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Storages\WhoListStorage.h">
+      <Filter>Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Support\SupportMgr.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Texts\ChatTextBuilder.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Texts\CreatureTextMgr.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Texts\CreatureTextMgrImpl.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Time\GameTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Time\UpdateTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Time\WowTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Tools\CharacterDatabaseCleaner.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Tools\PlayerDump.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\Warden.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\WardenCheckMgr.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\WardenMac.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\WardenWin.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\Modules\WardenModuleMac.h">
+      <Filter>Warden\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Warden\Modules\WardenModuleWin.h">
+      <Filter>Warden\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Weather\Weather.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\Weather\WeatherMgr.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\World\WorldStates\WorldStateDefines.h">
+      <Filter>World\WorldStates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\World\WorldStates\WorldStateMgr.h">
+      <Filter>World\WorldStates</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\game\CMakeFiles\game.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\game\CMakeFiles\game.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\game\CMakeFiles\game.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\game\CMakeFiles\game.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AI">
+      <UniqueIdentifier>{0F626E82-02B8-34D6-9A5C-A02053A140D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\CoreAI">
+      <UniqueIdentifier>{BB914C6C-1F44-36DC-AEB8-6C432B928B1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\PlayerAI">
+      <UniqueIdentifier>{388CB881-A5DD-3EF5-A018-96259C0CD555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptedAI">
+      <UniqueIdentifier>{FEDAEAAF-D634-3995-8A98-78F8D665DFD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\SmartScripts">
+      <UniqueIdentifier>{DAC07307-6DE5-3121-893E-4C0090FF003C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Accounts">
+      <UniqueIdentifier>{95C6EA33-0155-3AB4-9650-23AE20D30630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Achievements">
+      <UniqueIdentifier>{976720C0-B3FD-3E64-A5DA-0105943E975E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AuctionHouse">
+      <UniqueIdentifier>{5684807F-A84A-3FE1-88DD-CC6F58FC07B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AuctionHouseBot">
+      <UniqueIdentifier>{40830698-6F89-3769-86E8-ED2D285AB229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattlePets">
+      <UniqueIdentifier>{D4DC4516-15AC-34B4-98F8-124B4BF092A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlefield">
+      <UniqueIdentifier>{BDCC8E5D-E4E0-32BB-867C-6449067E0A1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlegrounds">
+      <UniqueIdentifier>{BE03E7A0-A4AD-3BF1-88FD-2B32774053F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BlackMarket">
+      <UniqueIdentifier>{8E8497BF-B66D-39B0-A429-2E724A76FB25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{791B8BCA-3335-3933-834A-1060FC4789CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calendar">
+      <UniqueIdentifier>{AA512029-CAFD-3FE0-87F8-3085EAF8B3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat">
+      <UniqueIdentifier>{F07E26B9-F568-314B-ACE0-4250BFB65111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat\Channels">
+      <UniqueIdentifier>{8B985D74-8919-3AC1-A51B-61D0194C166E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat\ChatCommands">
+      <UniqueIdentifier>{46F9AAB7-DD18-3D3C-8628-FD877C4954D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Combat">
+      <UniqueIdentifier>{F15327AF-D013-386A-8C25-844CB5643F42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Conditions">
+      <UniqueIdentifier>{D02D1382-809D-34F2-988A-1D33EFFF864D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStores">
+      <UniqueIdentifier>{27FC9025-EF33-38BF-B1D3-2874BDCFADD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DungeonFinding">
+      <UniqueIdentifier>{D32EA6AD-9697-31EE-97F3-AE18CE9B05E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{B0F91669-4B3A-3CF0-BE9D-75EE98F29503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\AreaTrigger">
+      <UniqueIdentifier>{065A3A69-118B-3A1D-8E67-8A1437AD3FBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Conversation">
+      <UniqueIdentifier>{239616F5-8E0F-3870-A26B-0C67CCA99773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Corpse">
+      <UniqueIdentifier>{15342B1C-7502-39F7-A8C1-B1D18BEDE33B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Creature">
+      <UniqueIdentifier>{51B53084-67A1-3174-B651-C40BC86AFD83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\DynamicObject">
+      <UniqueIdentifier>{B6E2C843-8B6E-3EC1-917D-4E3BC8C7D075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\GameObject">
+      <UniqueIdentifier>{33BD90D0-A1E5-3ADE-B652-0B4B24439EE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Item">
+      <UniqueIdentifier>{235BA07E-042F-3E8C-AEA3-6E3461FD8747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Item\AzeriteItem">
+      <UniqueIdentifier>{1F0DDB99-5129-3246-B799-038A68C5604E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Item\Container">
+      <UniqueIdentifier>{E15FF418-C992-3673-8D0F-183EA8DF949E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Object">
+      <UniqueIdentifier>{41D32F46-B9FA-353F-8491-A8B768A1643C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Object\Updates">
+      <UniqueIdentifier>{1D0D5E22-6678-3311-9C66-8F51897883D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Pet">
+      <UniqueIdentifier>{CA6632E8-DC2C-3DDD-BA3D-C3C705D587E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Player">
+      <UniqueIdentifier>{1EE38DC7-4778-3874-92F1-B31157932BA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\SceneObject">
+      <UniqueIdentifier>{9966337B-6108-3C0F-8DE0-1ECBC2DCBBC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Taxi">
+      <UniqueIdentifier>{9437F893-24F4-35FC-BFAB-A1EB71B5A356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Totem">
+      <UniqueIdentifier>{51D91D4D-C102-30C5-A979-1EB8F50E8630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Transport">
+      <UniqueIdentifier>{ED1CB20C-5785-3495-8BC8-232B0DA5990E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Unit">
+      <UniqueIdentifier>{FF2FF4F6-9056-38C3-BDD1-6E85AF96330B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Vehicle">
+      <UniqueIdentifier>{0C2DF3C9-0E63-35DE-814F-46F7D59BAB22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{34A38562-FFD4-3CA7-8B80-47ADC32A4779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Garrison">
+      <UniqueIdentifier>{7DF55210-0B8B-34F7-9B32-B5CB3D323A08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{C2C26EC5-DCFF-352A-8882-D4EE73B68F4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids">
+      <UniqueIdentifier>{9560A125-9F25-3266-9966-6EF76D289E72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Cells">
+      <UniqueIdentifier>{F9CFD78A-8DD7-306E-AE38-315020D5E957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Dynamic">
+      <UniqueIdentifier>{1008C4D4-E168-32A9-970E-C01C886DD7C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Notifiers">
+      <UniqueIdentifier>{A07BC750-DB4A-3AB8-A690-9F55BB81550E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Groups">
+      <UniqueIdentifier>{57D55C4E-8BBB-3EEB-88A6-B4609165EB3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guilds">
+      <UniqueIdentifier>{F519B6A0-DD4D-31EC-AF25-0343D5855011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handlers">
+      <UniqueIdentifier>{0FA1A57A-1BAD-3840-BE9D-C439BB9491FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instances">
+      <UniqueIdentifier>{89B2D335-4C2C-3A08-9BDE-704EC90791A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loot">
+      <UniqueIdentifier>{556C40DC-AC98-3450-8AB2-38A0DDE7FD1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mails">
+      <UniqueIdentifier>{183E01E0-376F-3F07-9411-18AA9AE0D2EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{5FD56FD5-ABFB-3A43-97BD-A1812547564E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{26F34450-700E-3FB9-BC40-BA0A8A6F1D8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement">
+      <UniqueIdentifier>{5954E984-0081-3804-98D8-B8CB43AFD780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\MovementGenerators">
+      <UniqueIdentifier>{0522AD34-5057-3633-9227-58886A10766F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\Spline">
+      <UniqueIdentifier>{C6033072-83F9-3710-96A4-F582390A3158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\Waypoints">
+      <UniqueIdentifier>{F5F8BED9-EE8A-31E9-AB11-8CA58E4BCB19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutdoorPvP">
+      <UniqueIdentifier>{CA38B264-717A-354E-A156-54120B276618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Petitions">
+      <UniqueIdentifier>{0789D9FD-A352-3306-BC2A-1967D2151C33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Phasing">
+      <UniqueIdentifier>{7A00248B-5DF2-374B-8170-298AC61DEF78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pools">
+      <UniqueIdentifier>{D551A4C1-919A-3E40-BA78-2A2567FB4987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{9E72C5BD-7BAA-3D3F-A276-D87B58472C63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quests">
+      <UniqueIdentifier>{5B5207E8-2034-30BB-9F2F-545D1E5AA20C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reputation">
+      <UniqueIdentifier>{6AAE5C9F-695F-3CEC-81DF-F9C4F24A1FE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenarios">
+      <UniqueIdentifier>{54D1F74F-D0B9-39F8-802D-D528D4CD298F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{26CD6612-1420-33CD-A6B6-731A5EF71503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting\v2">
+      <UniqueIdentifier>{587CE7D8-4F16-3AAC-93FB-BD08EB970412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{D2179567-D2CF-3DA4-B3A8-66F75D1E8A19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Packets">
+      <UniqueIdentifier>{0B05C443-0B9E-33DB-A0D9-42487178C66E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Protocol">
+      <UniqueIdentifier>{CB15FE14-98D8-3F0A-A611-2D34E3CDA78E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{83BD4742-DE67-3040-9F96-49B0875843D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skills">
+      <UniqueIdentifier>{F4354DFF-7FC9-3393-9513-B2B4B4EEFF59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ACD4CA30-9226-3328-A89B-93A665C7AF93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells">
+      <UniqueIdentifier>{5ABB61C7-F5F7-3964-A0DE-1E252BC58F61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells\Auras">
+      <UniqueIdentifier>{2951B98D-1502-3883-B7D1-54D7D555B850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Storages">
+      <UniqueIdentifier>{10C176D4-7BFD-3A11-AB26-204105F3306E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{5FD1B12F-BE5D-3AA5-9AB1-B5B80CD6ACB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texts">
+      <UniqueIdentifier>{DFC90425-6E10-3423-BE40-251FC118285F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{B19D1918-BCD5-3690-BD24-A42D0C348E93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{5DA4B38E-6D07-3877-B7C3-5FFFA4EE2AAF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Warden">
+      <UniqueIdentifier>{2AEB4155-06D6-3883-9216-B43A87F534D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Warden\Modules">
+      <UniqueIdentifier>{B5F7816E-1263-32D7-BE0F-4E57199F9C40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weather">
+      <UniqueIdentifier>{0E213506-3EF0-3AF2-8248-01057482BCDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{62B92F9E-DE96-320A-BB05-349FBADB6487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\WorldStates">
+      <UniqueIdentifier>{A5E1AA75-EA1C-3FCD-A9CC-3182EA8D9741}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

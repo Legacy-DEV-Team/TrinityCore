@@ -1,0 +1,54 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/OSRelease/010-TryOldCentOS.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/OSRelease/020-TryDebianVersion.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Linker/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake
+C:/Users/Administrator/Desktop/TrinityCore/Build/CMakeFiles/3.31.2/CMakeCCompiler.cmake
+C:/Users/Administrator/Desktop/TrinityCore/Build/CMakeFiles/3.31.2/CMakeCXXCompiler.cmake
+C:/Users/Administrator/Desktop/TrinityCore/Build/CMakeFiles/3.31.2/CMakeRCCompiler.cmake
+C:/Users/Administrator/Desktop/TrinityCore/Build/CMakeFiles/3.31.2/CMakeSystem.cmake
+C:/Users/Administrator/Desktop/TrinityCore/CMakeLists.txt
+C:/Users/Administrator/Desktop/TrinityCore/cmake/compiler/msvc/settings.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/genrev.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/macros/AutoCollect.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/macros/CheckPlatform.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/macros/ConfigureBaseTargets.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/macros/ConfigureScripts.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/macros/FindMySQL.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/macros/FindPCHSupport.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/macros/GroupSources.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/options.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/platform/win/settings.cmake
+C:/Users/Administrator/Desktop/TrinityCore/cmake/showoptions.cmake
+C:/Users/Administrator/Desktop/TrinityCore/revision_data.h.in.cmake

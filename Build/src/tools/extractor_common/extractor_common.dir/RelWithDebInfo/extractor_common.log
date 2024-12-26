@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/tools/extractor_common/CMakeLists.txt
+  CascHandles.cpp
+  DB2CascFileSource.cpp
+  extractor_common.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\src\tools\extractor_common\RelWithDebInfo\extractor_common.lib

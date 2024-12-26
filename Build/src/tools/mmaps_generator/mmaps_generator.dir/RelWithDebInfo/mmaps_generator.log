@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/tools/mmaps_generator/CMakeLists.txt
+  IntermediateValues.cpp
+  MapBuilder.cpp
+  PathGenerator.cpp
+  TerrainBuilder.cpp
+  mmaps_generator.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\bin\RelWithDebInfo\mmaps_generator.exe

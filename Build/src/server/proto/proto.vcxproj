@@ -1,0 +1,992 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{142DD10F-390C-31B1-8D9D-84CC6B473BC8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>proto</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">proto.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">proto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">proto.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">proto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">proto.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">proto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">proto.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">proto</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/local/boost_1_86_0" /external:I "C:/Program Files/OpenSSL-Win64/include" /bigobj /Zc:throwingNew /w34100 /w34101 /w34189 /w34389 /w35054</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4985;4244;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/proto.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_BUILD_DIRECTIVE="Debug";_WIN32_WINNT=0x0A00;NTDDI_VERSION=0x0A000007;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_REQUIRED_WINDOWS_BUILD=18362;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_MATH_DEFINES;BOOST_ALL_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_BIND_NO_PLACEHOLDERS;BOOST_SYSTEM_USE_UTF8;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_LOCALE_NO_LIB;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_BUILD_DIRECTIVE=\"Debug\";_WIN32_WINNT=0x0A00;NTDDI_VERSION=0x0A000007;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_REQUIRED_WINDOWS_BUILD=18362;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_MATH_DEFINES;BOOST_ALL_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_BIND_NO_PLACEHOLDERS;BOOST_SYSTEM_USE_UTF8;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_LOCALE_NO_LIB;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;C:\local\boost_1_86_0;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;C:\local\boost_1_86_0;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/local/boost_1_86_0" /external:I "C:/Program Files/OpenSSL-Win64/include" /bigobj /Zc:throwingNew /w34100 /w34101 /w34189 /w34389 /w35054</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4351;4091;4996;4985;4244;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/proto.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="Release";_WIN32_WINNT=0x0A00;NTDDI_VERSION=0x0A000007;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_REQUIRED_WINDOWS_BUILD=18362;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_MATH_DEFINES;BOOST_ALL_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_BIND_NO_PLACEHOLDERS;BOOST_SYSTEM_USE_UTF8;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_LOCALE_NO_LIB;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"Release\";_WIN32_WINNT=0x0A00;NTDDI_VERSION=0x0A000007;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_REQUIRED_WINDOWS_BUILD=18362;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_MATH_DEFINES;BOOST_ALL_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_BIND_NO_PLACEHOLDERS;BOOST_SYSTEM_USE_UTF8;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_LOCALE_NO_LIB;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;C:\local\boost_1_86_0;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;C:\local\boost_1_86_0;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/local/boost_1_86_0" /external:I "C:/Program Files/OpenSSL-Win64/include" /bigobj /Zc:throwingNew /w34100 /w34101 /w34189 /w34389 /w35054</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>4351;4091;4996;4985;4244;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/proto.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="MinSizeRel";_WIN32_WINNT=0x0A00;NTDDI_VERSION=0x0A000007;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_REQUIRED_WINDOWS_BUILD=18362;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_MATH_DEFINES;BOOST_ALL_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_BIND_NO_PLACEHOLDERS;BOOST_SYSTEM_USE_UTF8;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_LOCALE_NO_LIB;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"MinSizeRel\";_WIN32_WINNT=0x0A00;NTDDI_VERSION=0x0A000007;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_REQUIRED_WINDOWS_BUILD=18362;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_MATH_DEFINES;BOOST_ALL_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_BIND_NO_PLACEHOLDERS;BOOST_SYSTEM_USE_UTF8;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_LOCALE_NO_LIB;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;C:\local\boost_1_86_0;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;C:\local\boost_1_86_0;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/local/boost_1_86_0" /external:I "C:/Program Files/OpenSSL-Win64/include" /bigobj /Zc:throwingNew /w34100 /w34101 /w34189 /w34389 /w35054</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4985;4244;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/proto.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="RelWithDebInfo";_WIN32_WINNT=0x0A00;NTDDI_VERSION=0x0A000007;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_REQUIRED_WINDOWS_BUILD=18362;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_MATH_DEFINES;BOOST_ALL_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_BIND_NO_PLACEHOLDERS;BOOST_SYSTEM_USE_UTF8;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_LOCALE_NO_LIB;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"RelWithDebInfo\";_WIN32_WINNT=0x0A00;NTDDI_VERSION=0x0A000007;WIN32_LEAN_AND_MEAN;NOMINMAX;TRINITY_REQUIRED_WINDOWS_BUILD=18362;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_MATH_DEFINES;BOOST_ALL_NO_LIB;BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE;BOOST_ASIO_NO_DEPRECATED;BOOST_BIND_NO_PLACEHOLDERS;BOOST_SYSTEM_USE_UTF8;BOOST_SYSTEM_NO_LIB;BOOST_FILESYSTEM_NO_LIB;BOOST_ATOMIC_NO_LIB;BOOST_PROGRAM_OPTIONS_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_LOCALE_NO_LIB;SFMT_MEXP=19937;HAVE_SSE2;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;C:\local\boost_1_86_0;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\TrinityCore\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login;C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList;C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto;C:\Users\Administrator\Desktop\TrinityCore\Build;C:\Users\Administrator\Desktop\TrinityCore\src\common;C:\Users\Administrator\Desktop\TrinityCore\src\common\Asio;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Management;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Maps;C:\Users\Administrator\Desktop\TrinityCore\src\common\Collision\Models;C:\Users\Administrator\Desktop\TrinityCore\src\common\Configuration;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers;C:\Users\Administrator\Desktop\TrinityCore\src\common\Containers\Utilities;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography;C:\Users\Administrator\Desktop\TrinityCore\src\common\Cryptography\Authentication;C:\Users\Administrator\Desktop\TrinityCore\src\common\DataStores;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Debugging\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Encoding;C:\Users\Administrator\Desktop\TrinityCore\src\common\Hacks;C:\Users\Administrator\Desktop\TrinityCore\src\common\IPLocation;C:\Users\Administrator\Desktop\TrinityCore\src\common\Logging;C:\Users\Administrator\Desktop\TrinityCore\src\common\Metric;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform;C:\Users\Administrator\Desktop\TrinityCore\src\common\Platform\Windows;C:\Users\Administrator\Desktop\TrinityCore\src\common\Threading;C:\Users\Administrator\Desktop\TrinityCore\src\common\Time;C:\Users\Administrator\Desktop\TrinityCore\src\common\Utilities;C:\Users\Administrator\Desktop\TrinityCore\dep\argon2;C:\Users\Administrator\Desktop\TrinityCore\dep\fmt\include;C:\Users\Administrator\Desktop\TrinityCore\dep\g3dlite\include;C:\Users\Administrator\Desktop\TrinityCore\dep\zlib;C:\Users\Administrator\Desktop\TrinityCore\dep\recastnavigation\Detour\Include;C:\Users\Administrator\Desktop\TrinityCore\dep\SFMT;C:\Users\Administrator\Desktop\TrinityCore\dep\utf8cpp;C:\Users\Administrator\Desktop\TrinityCore\dep\valgrind;C:\Users\Administrator\Desktop\TrinityCore\dep\openssl_ed25519;C:\Users\Administrator\Desktop\TrinityCore\dep\short_alloc;C:\Users\Administrator\Desktop\TrinityCore\dep\protobuf\src;C:\local\boost_1_86_0;C:\Program Files\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/server/proto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/TrinityCore -BC:/Users/Administrator/Desktop/TrinityCore/Build --check-stamp-file C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/server/proto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/TrinityCore -BC:/Users/Administrator/Desktop/TrinityCore/Build --check-stamp-file C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/server/proto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/TrinityCore -BC:/Users/Administrator/Desktop/TrinityCore/Build --check-stamp-file C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/src/server/proto/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Administrator/Desktop/TrinityCore -BC:/Users/Administrator/Desktop/TrinityCore/Build --check-stamp-file C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/proto.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/proto.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/proto.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/proto.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\BattlenetRpcErrorCodes.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\ServiceBase.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\ServiceBase.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\account_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\account_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\account_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\account_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\attribute_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/attribute_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\attribute_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\authentication_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\authentication_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\challenge_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\challenge_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\connection_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\connection_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\content_handle_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\content_handle_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\embed_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/embed_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\embed_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\entity_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\entity_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\ets_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\ets_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\event_view_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/event_view_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\event_view_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\friends_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\friends_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\friends_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\friends_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\game_utilities_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\game_utilities_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\game_utilities_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\game_utilities_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\invitation_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/invitation_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\invitation_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\message_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/message_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\message_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\notification_service.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/notification_service.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\notification_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\notification_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/notification_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\notification_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_listener.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_listener.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\presence_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\profanity_filter_config.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\profanity_filter_config.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\report_service.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/report_service.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\report_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\report_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/report_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\report_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\resource_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\resource_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\role_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\role_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\rpc_config.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\rpc_config.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\rpc_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\rpc_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\semantic_version.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\semantic_version.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\voice_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/voice_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\voice_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_listener.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_listener.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\block_list_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\channel_id.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\channel_id.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\channel_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\channel_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_ban.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_ban.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_core.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/client/v1/club_core.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_core.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_enum.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/client/v1/club_enum.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_enum.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_invitation.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_invitation.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_listener.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_listener.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_member.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_member.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_listener.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_listener.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_membership_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_name_generator.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_name_generator.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_notification.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_notification.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_range_set.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_range_set.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_request.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_request.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_role.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_role.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_stream.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_stream.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v1\club_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_listener.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_listener.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_service.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/client/v2/notification_service.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/client/v2/notification_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\notification_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\report_service.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/client/v2/report_service.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\report_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\report_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/client/v2/report_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\report_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\whisper_listener.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\whisper_listener.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\whisper_service.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\client\v2\whisper_service.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_core.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/common/v1/club_core.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_core.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_enum.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/common/v1/club_enum.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_enum.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_member_id.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_member_id.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_tag.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_tag.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_type.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\club_type.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\embed_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/common/v1/embed_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\embed_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\event_view_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/common/v1/event_view_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\event_view_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\invitation_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/common/v1/invitation_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\invitation_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\message_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/common/v1/message_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\message_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\voice_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/common/v1/voice_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v1\voice_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\attribute_types.pb.cc">
+      <ObjectFileName>$(IntDir)/Client/api/common/v2/attribute_types.pb.cc.obj</ObjectFileName>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\attribute_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\game_account_handle.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\game_account_handle.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\whisper_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\api\common\v2\whisper_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\field_options.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\field_options.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\message_options.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\message_options.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\method_options.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\method_options.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\range.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\range.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\register_method_types.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\register_method_types.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\routing.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\routing.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\service_options.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Client\global_extensions\service_options.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login\Login.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\Login\Login.pb.h" />
+    <ClCompile Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList\RealmList.pb.cc">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Administrator/Desktop/TrinityCore/Build/src/server/proto/CMakeFiles/proto.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\src\server\proto\RealmList\RealmList.pb.h" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\MinSizeRel\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\server\proto\CMakeFiles\proto.dir\RelWithDebInfo\cmake_pch.hxx" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\ZERO_CHECK.vcxproj">
+      <Project>{73D18A49-CA00-32FE-AD3E-7341E1188DAA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{7A3BF08C-B6F7-39BF-8C6F-F19485574DAF}</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\dep\argon2\argon2.vcxproj">
+      <Project>{112D79F8-8DE2-3754-9928-EA2BA178B455}</Project>
+      <Name>argon2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\src\common\common.vcxproj">
+      <Project>{AA290D28-0A8C-3DAE-AC59-7A0B7722F401}</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\dep\fmt\fmt.vcxproj">
+      <Project>{A9912697-F35C-392E-B011-6E94EC34BCAF}</Project>
+      <Name>fmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\dep\g3dlite\g3dlib.vcxproj">
+      <Project>{5FCF62B9-87C1-35CE-B7C9-C260162381AE}</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\dep\openssl_ed25519\openssl_ed25519.vcxproj">
+      <Project>{A8B4A4C6-C90A-360B-988B-A5FBEA46F2C6}</Project>
+      <Name>openssl_ed25519</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\dep\protobuf\protobuf.vcxproj">
+      <Project>{E482EE1A-7953-34AC-AA36-6B95CAFF1477}</Project>
+      <Name>protobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\dep\SFMT\sfmt.vcxproj">
+      <Project>{9A3758FA-C598-3215-AAE6-77D7B39D196B}</Project>
+      <Name>sfmt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Administrator\Desktop\TrinityCore\Build\dep\zlib\zlib.vcxproj">
+      <Project>{F25C552C-5656-300A-8EE5-184A884E7F02}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

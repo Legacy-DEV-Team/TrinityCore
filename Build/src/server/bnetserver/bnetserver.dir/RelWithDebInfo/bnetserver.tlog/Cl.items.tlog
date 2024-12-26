@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\CMakeFiles\bnetserver.dir\cmake_pch.cxx;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\cmake_pch.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\Main.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\Main.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\REST\LoginHttpSession.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\LoginHttpSession.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\REST\LoginRESTService.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\LoginRESTService.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\Server\Session.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\Session.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\Server\SessionManager.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\SessionManager.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\Server\SslContext.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\SslContext.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\Services\AccountService.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\AccountService.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\Services\AuthenticationService.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\AuthenticationService.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\Services\ConnectionService.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\ConnectionService.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\Services\GameUtilitiesService.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\GameUtilitiesService.obj
+C:\Users\Administrator\Desktop\TrinityCore\src\server\bnetserver\Services\ServiceDispatcher.cpp;C:\Users\Administrator\Desktop\TC\Build\src\server\bnetserver\bnetserver.dir\RelWithDebInfo\ServiceDispatcher.obj

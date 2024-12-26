@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/dep/openssl_ed25519/CMakeLists.txt
+  curve25519.c
+     Creating library C:/Users/Administrator/Desktop/TC/Build/dep/openssl_ed25519/RelWithDebInfo/openssl_ed25519.lib and object C:/Users/Administrator/Desktop/TC/Build/dep/openssl_ed25519/RelWithDebInfo/openssl_ed25519.exp
+  openssl_ed25519.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\bin\RelWithDebInfo\openssl_ed25519.dll

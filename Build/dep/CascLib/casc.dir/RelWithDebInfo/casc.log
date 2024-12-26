@@ -1,0 +1,33 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/dep/CascLib/CMakeLists.txt
+  Common.cpp
+  Directory.cpp
+  Csv.cpp
+  FileStream.cpp
+  FileTree.cpp
+  ListFile.cpp
+  Mime.cpp
+  RootHandler.cpp
+  Sockets.cpp
+  md5.cpp
+  sha1.cpp
+  apm.cpp
+  cmf.cpp
+  aes.cpp
+  CascDecompress.cpp
+  CascDecrypt.cpp
+  CascDumpData.cpp
+  CascFiles.cpp
+  CascFindFile.cpp
+  CascIndexFiles.cpp
+  CascOpenFile.cpp
+  CascOpenStorage.cpp
+  CascReadFile.cpp
+  CascRootFile_Diablo3.cpp
+  CascRootFile_Install.cpp
+  CascRootFile_MNDX.cpp
+  CascRootFile_Text.cpp
+  CascRootFile_TVFS.cpp
+  CascRootFile_OW.cpp
+  CascRootFile_WoW.cpp
+  lookup3.c
+  casc.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\dep\CascLib\RelWithDebInfo\casc.lib

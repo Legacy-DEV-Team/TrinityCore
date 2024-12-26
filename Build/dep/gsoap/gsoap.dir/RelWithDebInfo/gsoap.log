@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/dep/gsoap/CMakeLists.txt
+  soapC.cpp
+  soapServer.cpp
+  stdsoap2.cpp
+  gsoap.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\dep\gsoap\RelWithDebInfo\gsoap.lib

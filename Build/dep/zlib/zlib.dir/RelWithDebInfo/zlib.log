@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/Administrator/Desktop/TrinityCore/dep/zlib/CMakeLists.txt
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  infback.c
+  inffast.c
+  inflate.c
+  inftrees.c
+  trees.c
+  uncompr.c
+  zutil.c
+  zlib.vcxproj -> C:\Users\Administrator\Desktop\TC\Build\dep\zlib\RelWithDebInfo\zlib.lib
